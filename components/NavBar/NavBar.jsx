@@ -26,12 +26,18 @@ const NavBar = () => {
         <div className={Style.navbar_container}>
             <div className={Style.navbar_container_left}>
                 <div className={Style.logo}>
-                    <Image src={images.logo} alt ="NFT MARKET PLACE LOGO" width={100} height={100}></Image>
+                    <Image src={images.logo} alt ="NFT MARKET PLACE LOGO" width={100} height={100}/>
                 
                 </div>
+                <div className={Style.navbar_container_left_box_input}>
+                    <div className={Style.navbar_container_left_box_input_box}>
+                        <input type='text' placeholder="search NFT"/>
+                        <BsSearch onClick={()=> {}} className={Style.search_con}/>
+                    </div>
+                </div>
             </div>
-            <div className={Style.navbar_container_left}>
-                    
+            <div className={Style.navbar_container_right}>
+                <div className={Style.navbar_container_right_discover}></div>
             </div>
         </div>
     </div>
