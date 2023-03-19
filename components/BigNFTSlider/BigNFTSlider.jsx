@@ -9,7 +9,7 @@ import Style from "./BigNFTSlider.module.css";
 import images from "../../img";
 import Button from "../Button/Button";
 
-const BigNFTSilder = () => {
+const BigNFTSlider = () => {
   const [idNumber, setIdNumber] = useState(0);
 
   const sliderData = [
@@ -214,4 +214,4 @@ const BigNFTSilder = () => {
   );
 };
 
-export default BigNFTSilder;
+export default BigNFTSlider;

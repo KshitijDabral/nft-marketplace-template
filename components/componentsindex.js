@@ -4,7 +4,7 @@ import NavBar from "./NavBar/NavBar";
 import HeroSection from "./HeroSection/HeroSection";
 import Service from "./Service/Service";
 import BigNFTSlider from "./BigNFTSlider/BigNFTSlider";
-import Subscribe from "./Subscribe/Subscribe";/* 
+import Subscribe from "./Subscribe/Subscribe"; 
 import Title from "./Title/Title";
 import Category from "./Category/Category";
 import Filter from "./Filter/Filter";
@@ -17,7 +17,7 @@ import Slider from "./Slider/Slider";
 import Brand from "./Brand/Brand";
 import Video from "./Video/Video";
 import Loader from "./Loader/Loader";
-import Error from "./Error/Error"; */
+import Error from "./Error/Error";
 
 export {
   Button,
@@ -26,7 +26,7 @@ export {
   HeroSection,
   Service,
   BigNFTSlider ,
-  Subscribe/*,
+  Subscribe,
   Title,
   Category,
   Filter,
@@ -39,5 +39,5 @@ export {
   Brand,
   Video,
   Loader,
-  Error,*/
+  Error
 };
